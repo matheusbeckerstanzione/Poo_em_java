@@ -35,8 +35,27 @@ public class Main {
 
         aluno1.mostrarInformacoes();
 
+
+
+            Personagem heroi = new Personagem("matheus", 22,100);
+
+
+            System.out.println("Nome " + heroi.getNome());
+            System.out.println("Nível " + heroi.getNivel());
+            System.out.println("Pontos de Vida " + heroi.getPontosDeVida());
+
+
+            heroi.receberDano(30);
+            System.out.println("Vida após dano " + heroi.getPontosDeVida());
+
+
+            heroi.receberDano(80);
+            System.out.println("Vida após dano " + heroi.getPontosDeVida());
+
+
     }
     }
+
 
 
 
