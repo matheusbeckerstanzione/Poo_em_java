@@ -52,6 +52,18 @@ public class Main {
             heroi.receberDano(80);
             System.out.println("Vida após dano " + heroi.getPontosDeVida());
 
+            Atleta atleta = new Atleta("Matheus", "Futebol");
+            System.out.println("Nome" + atleta.getNome());
+            System.out.println("Esporte" + atleta.getNome());
+
+            Carroo carroo = new Carroo("Fiat", 4);
+            Bicicleta bicicleta = new Bicicleta("Caloi", 2);
+
+        System.out.println("Nome" + carroo.nome());
+        System.out.println("Numero de portas" + carroo.numero());
+
+        System.out.println("Nome" + bicicleta.Nome());
+        System.out.println("Numero de rodas" + bicicleta.numero());
 
     }
     }
